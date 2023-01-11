@@ -1,0 +1,33 @@
+Operators:
+    Operators are different symbols that we can use to perform operations like addition,subtraction we can
+    compate things if two entities are same or a number is greater than the other number.
+    There are three types of operators. They are Arithmetic operators, Relational operators and Logical
+    operators.
+Arithmetic operators:
+    We use to perform simple math operations. Like additions, subtractions....
+    + =>addition;
+    - =>subtruction;
+    / =>devision;
+    * =>multiplication;
+    % =>modulus, remained
+Relational operators:
+    Use to compare two quantities or entities. For example if somethings bigger then other thing
+    or if two numbers are same or not or if two boolean variables contain same values or not
+    == => use to check if two variables contain the same value or not if same we get true otherwise we get false
+    != =>  use to check if two variables do not contain the same value. we get true if they are not same
+    > =>  use to check if one value is greater than other value or not if greater we get true
+    <  =>  use to check if one value is smaller than other value or not if smaller we get true
+    >= if value on the left is greater than value on right side or if they are same we will get a true
+    <=  it opposite of >= and it used to check if something is less than or equal to onother thing
+Conditional constructs
+    used to write conditional code. A piece of code that execute based on a condition is true that java execute
+    the code otherwise it skips that code.
+    if(condition)
+    {any line of code even another if condition
+    if() {
+    }
+    }
+
+    If else condition
+    When we have to test same varible for mult cond i sould use If else If
+    When we i have mult conditions and these conditions are dependent on each other Nested If conditions

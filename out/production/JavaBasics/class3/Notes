@@ -1,0 +1,8 @@
+What are Variable?
+    Variables are containers or boxes in the memory that can hold then data for us.
+Why we need variables?
+    Before we can ask computer to do something for us, we need to store the information and instructions
+ in the file the we feed those to the computer and computer does that thing for us.
+
+
+ if(name.equals("Sam"))
