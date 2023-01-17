@@ -1,15 +1,19 @@
 package class9;
 
-public class ArrayDemo5 {
+public class ArrayDemo6 {
     public static void main(String[] args) {
-        int[]numbers=new int[5]; // an empty array of size 5 will be created
-        numbers[0]=50;
-        numbers[1]=30;
-        numbers[2]=55;
-        numbers[3]=60;
-        numbers[4]=52;
+        int[]numbers=new int[5];
+        numbers[0]=45;
+        numbers[1]=44;
+        numbers[2]=33;
+        numbers[3]=20;
+        numbers[4]=10;
+        int sum=0;
         for(int i=0;i<numbers.length;i++){
-        System.out.println(numbers[i]);
+            if(i%2==0){
+            sum=sum+numbers[i];
+            }
         }
+        System.out.println(sum);
     }
 }
