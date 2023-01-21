@@ -9,11 +9,10 @@ public class Task7 {
         System.out.println("Enter the number: ");
         int num= scan.nextInt();
         int n=0;
-        for(int i=1;i<=9;i++){
+        for(int i=1;i<=num/2;i++){
             if(num%i==0){
                 n++;
             }
-          //System.out.println(n);
 
         }
         if(n>2){
