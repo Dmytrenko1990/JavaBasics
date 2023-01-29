@@ -1,4 +1,4 @@
-package HomeWorkClass13;
+package homeWorkClass13;
 
 public class Task6 {
     //How would you swap  2 strings without a temporary variable?

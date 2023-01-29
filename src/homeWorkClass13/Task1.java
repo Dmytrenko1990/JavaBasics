@@ -1,4 +1,4 @@
-package HomeWorkClass13;
+package homeWorkClass13;
 
 public class Task1 {
     //Create a String that will hold a sentence.Write a program to get
