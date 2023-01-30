@@ -1,6 +1,6 @@
 package review5;
 
-public class Task7 {
+public class PrimeNum {
     public static void main(String[] args) {
         //write program to check a given number is prime or not?
         int given=3;
