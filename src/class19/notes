@@ -1,0 +1,20 @@
+constructor- block of code similar to a method
+that is executed when we create an Object.
+
+Why do we need it? - constructor initializes the object
+
+How to create a constructor?
+1.Constructor name MUST be same a class
+2.No return type
+
+Type of the constructors:
+non argument
+parametrized
+
+this key word - is used to refer to the current object
+    this. can be used with variable and methods
+    this. used to refer to the instance variable
+    In situation when local var has the same name with as instance ->
+    we use .this to differentiate and refer to the instance var
+this can be used to refer to refer to the instance method as well
+this() - can used to call CURRENT class constructor

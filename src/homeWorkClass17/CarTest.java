@@ -10,6 +10,7 @@ public class CarTest {
         car2.printInfo();
         Car car3=new Car("Audi","S8","white",2021);
         car3.printInfo();
+        
 
         System.out.println("||||||||||||||||||||||||||||||||||||||||||||||||");
         Car toyota=new Car();
@@ -18,5 +19,6 @@ public class CarTest {
         toyota.color="red";
         toyota.year=2020;
         toyota.printInfo();
+
     }
 }

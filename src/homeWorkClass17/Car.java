@@ -18,5 +18,5 @@ public class Car {
     void printInfo(){
         System.out.println(name+" "+model+" "+color+" "+year);
     }
-
+       public void foo(String a,String b){}
 }
