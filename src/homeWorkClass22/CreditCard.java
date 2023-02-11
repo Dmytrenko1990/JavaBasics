@@ -9,7 +9,6 @@ public class CreditCard {
     }
 }
 class Visa extends CreditCard{
-
 }
 class AX extends CreditCard{
     double calculateInterest(double balance){
@@ -22,6 +21,7 @@ class CreditCardTester{
         CreditCard creditCard=new CreditCard();
         System.out.println(creditCard.calculateInterest(10000));
         Visa visa=new Visa();
+        System.out.println(visa.calculateInterest(10000));
         AX ax=new AX();
         System.out.println(ax.calculateInterest(10000));
     }
