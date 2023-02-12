@@ -1,53 +1,23 @@
 public class Test {
-        String make;
-        String model;
-        int numOfDoors;
-        int topSpeed;
-        double price;
-
-        Test(String make, String model, int numOfDoors, int topSpeed, double price) {
-            this.make=make;
-            this.model=model;
-            this.numOfDoors=numOfDoors;
-            this.topSpeed=topSpeed;
-            this.price=price;
+    static String mixString(String s1,String s2){
+        String combinedStr=" ";
+        for (int i = 0; i <s1.length() ; i++) {
+            combinedStr=combinedStr+Character.toString(s1.charAt(i))+Character.toString(s2.charAt(i));
+        }
+        return combinedStr;
         }
 
-        Test(String make, String model,int topSpeed, double price) {
-            this.make=make;
-            this.model=model;
-            numOfDoors=4;
-            this.topSpeed=topSpeed;
-            this.price=price;
-        }
-        Test( int numOfDoors, int topSpeed, double price) {
-            make="unknown";
-            model="unknown";
-            this.numOfDoors=numOfDoors;
-            this.topSpeed=topSpeed;
-            this.price=price;
-        }
-        Test(String make, String model, int numOfDoors) {
-            this.make=make;
-            this.model=model;
-            this.numOfDoors=numOfDoors;
-            topSpeed=90;
-            price=0;
-        }
-        void display(){
-            System.out.println(make+" "+model+" "+numOfDoors+" "+topSpeed+" "+price);
-        }
-    }
-    class Ma{
-        public static void main(String[] args) {
-            Test car1=new Test("Toyota","Prius",4,120,30000);
-            car1.display();
-            Test car2=new Test("Toyota","Prius",120,30000);
-            car2.display();
-            Test car3=new Test(4,120,30000);
-            car3.display();
-            Test car4=new Test("Toyota","Prius",4);
-            car4.display();
-        }
+    //test case below (dont change):
+    public static void main(String[] args){
+        String firstValue = mixString("12345","abcde");
+        System.out.println(firstValue);
+        String secondValue = mixString("howdy","hello");
+        System.out.println(secondValue);
 
     }
+
+
+}
+
+
+
