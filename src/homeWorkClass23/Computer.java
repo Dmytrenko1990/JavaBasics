@@ -6,6 +6,9 @@ Create a Class Computer that will have 4 subclasses as Apple, Lenovo, HP, Dell.
         Create objects of child classes and store them into array. Loop through each object and execute available methods.
 */
 public class Computer {
+    int RAM;
+    int storage;
+    String OS;
     public void turnOn(){
         System.out.println("Computer turning ON");
     }

@@ -1,7 +1,7 @@
 package review7;
 
 public class Car {
-    String make,model;
+    public String make,model;
     int year,horsePower;
         public Car(String name,String model){
             this.make=make;
