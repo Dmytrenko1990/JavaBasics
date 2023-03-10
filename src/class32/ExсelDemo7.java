@@ -10,7 +10,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class ExelDemo7 {
+public class ExсelDemo7 {
     public static void main(String[] args) throws IOException {
         String path = "Files/Book1.xlsx";
         FileInputStream fileInputStream = new FileInputStream(path);

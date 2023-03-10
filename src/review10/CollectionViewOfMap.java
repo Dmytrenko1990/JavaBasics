@@ -1,11 +1,8 @@
 package review10;
 
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
-public class ColectionViewOfMap {
+public class CollectionViewOfMap {
     public static void main(String[] args) {
         Map<String,Double> lmap=new LinkedHashMap<>();
         lmap.put("Milk",5.99);
@@ -24,7 +21,15 @@ public class ColectionViewOfMap {
         System.out.println("------------------------");
         Iterator<String>iter=keys.iterator();
         while(iter.hasNext()){
-            System.out.print(iter.next()+" "+ lmap.get());
+            //how to print Key+Value???
+            String k=iter.next();
+            System.out.print(k+" == "+lmap.get(k));
+        }
+        System.out.println("------------------");
+        Collection<Double>values=lmap.values();
+
+        for(double val:values){
+            System.out.println(val+", ");
         }
     }
 }

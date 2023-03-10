@@ -1,4 +1,4 @@
-package review8;
+/*package review8;
 
 public class InsuranceTest {
 
@@ -23,5 +23,4 @@ public class InsuranceTest {
 
         insurances[0].calculateCoverage();
 
-    }
-}
+    }*/

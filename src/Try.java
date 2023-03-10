@@ -1,2 +1,9 @@
-package PACKAGE_NAME;public class Try {
+import java.util.*;
+
+class Try {
+    public static void main(String[] args) {
+
+
+
+    }
 }

@@ -1,6 +1,8 @@
+package homeWorkClass28;
+
 import java.util.ArrayList;
 
-public class homeWorkClass28 {
+public class Task1 {
     /*Create an ArrayList that will store 5 names into it.
     Find out whether the given ArrayList is empty or not?
     Check whether the specific name is present in an ArrayList or not?

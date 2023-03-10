@@ -1,2 +1,5 @@
-package class29;public class MApsDemo2 {
+package class29;
+
+public class MapsDemo2 {
+
 }
